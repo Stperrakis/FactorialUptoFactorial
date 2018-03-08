@@ -11,7 +11,8 @@ int main(int argc, char argv) {
         scanf("%d",&j);
          }
     if (j==0) {
-       exit (-1);
+        printf("1");
+        exit(1);
     } else {
         for (k=1; k<j+1; k++) {
             t=t*k;
